@@ -1,0 +1,11 @@
+{
+    "type": "machine_model",
+    "name": "Stereotech ste320",
+    "model_id": "ste320",
+    "nozzle_diameter": "0.4",
+    "machine_tech": "FFF",
+    "family": "Stereotech",
+    "bed_model": "stereotech_3d_module_v5.obj",
+    "bed_texture": "StereotechSte320backplate.png",
+	"default_materials": "fdm_filament_abs;fdm_filament_pet;fdm_filament_pla"
+}

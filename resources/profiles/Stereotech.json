@@ -1,0 +1,74 @@
+{
+    "name": "Stereotech",
+    "version": "02.01.01.00",
+    "force_update": "0",
+    "description": "Stereotech configurations",
+    "machine_model_list": [
+		{
+            "name": "Stereotech hfe530v5.2",
+            "sub_path": "machine/Stereotech hfe530v5.2.json"
+		},
+        {
+            "name": "Stereotech hte530v5.3",
+            "sub_path": "machine/Stereotech hte530v5.2.json"
+        },
+        {
+            "name": "Stereotech ste320",
+            "sub_path": "machine/Stereotech ste320.json.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "0.12mm Fine @Stereotech",
+            "sub_path": "process/0.12mm Fine @Stereotech.json"
+        },
+        {
+            "name": "0.18mm Standard @Stereotech",
+            "sub_path": "process/0.18mm Standard @Stereotech.json"
+        },
+        {
+            "name": "0.25mm Draft @Stereotech",
+            "sub_path": "process/0.25mm Darft @Stereotech.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_abs",
+            "sub_path": "filament/fdm_filament_abs.json"
+        },
+        {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "Stereotech hfe530v5.2 0.4 nozzle",
+            "sub_path": "machine/Stereotech hfe530v5.2 0.4 nozzle.json"
+		},
+        {
+            "name": "Stereotech hte530v5.3 0.4 nozzle",
+            "sub_path": "machine/Stereotech hte530v5.2 0.4 nozzle.json"
+        },
+        {
+            "name": "Stereotech ste320 0.4 nozzle",
+            "sub_path": "machine/Stereotech ste320 0.4 nozzle.json.json"
+        }
+    ]
+}
